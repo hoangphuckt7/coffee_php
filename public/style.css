@@ -1,0 +1,653 @@
+.content {
+    height: 100%;
+    background-color: #e6dcde;
+}
+
+.cho_ngoi,
+.wrapper-hoa_don {
+    padding-top: 2%;
+    border-radius: 15px;
+    border: 3px solid #dea1a1;
+    min-height: 800px;
+    overflow-y:  scroll;
+    margin-bottom: 1%;
+}
+
+.cho_ngoi ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.cho_ngoi ul li {
+    float: left;
+    display: block;
+    margin: 6.3%;
+    width: 11%;
+}
+
+.cho_ngoi ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 30%;
+    /* width: 100%; */
+    /* font-size: 150%; */
+    border: 3px solid;
+    border-radius: 14%;
+}
+
+.fix {
+    height: 52px;
+}
+
+ul.nav.navbar-nav.fix {
+    margin-left: 55px;
+}
+
+ul.nav.navbar-nav.fix li a:hover {
+    border-bottom: 2px solid grey;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-inverse {
+    background-color: #00983b;
+    border-color: white;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    background-color: #da1515;
+}
+
+.navbar-inverse .navbar-nav li a:active {
+    background-color: #da1515;
+}
+
+.hoadon {
+    width: 26%;
+    height: 180px;
+    /* border: 3px solid green; */
+    border: 3px solid darkgreen;
+    border-radius: 8px;
+    font-size: 17px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.tieu_de_hoa_don {
+    background-color: #00983b;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 14px;
+    padding: 10px;
+}
+
+.noidung_hoa_don {
+    padding: 18px 7px;
+}
+
+span.mang_ve {
+    margin-right: 114px;
+}
+
+.dong ul {
+    list-style: none;
+    padding: 0px;
+    border-top: 1px solid #c1c1c1;
+    padding-top: 4%;
+}
+
+.dong ul li {
+    float: left;
+    padding: 0px 2px;
+    margin: 0 0%;
+}
+
+.dong ul li a {
+    display: block;
+    padding: 10px 13px;
+    background-color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.left {
+    width: 70%;
+    min-height: 893px;
+    float: left;
+    border-right: 2px solid #a9a2a4;
+    text-align: center;
+}
+
+.right {
+    min-height: 893px;
+    width: 30%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.khung {
+    width: 12%;
+    float: left;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 2px solid #ffc0c0;
+    border-radius: 7px;
+    height: 233px;
+}
+
+img {
+    width: 100%;
+}
+
+.right-top {
+    height: 600px;
+    font-size: 135%;
+    overflow-y:  scroll;
+}
+
+.right-middle {
+    min-height: 60px;
+}
+
+.right-bottom {
+    min-height: 140px;
+}
+
+.hang {
+      
+    border-top: 1px solid gray;
+	display:block;
+	padding:2%;
+}
+
+span.hang-noi-dung-ten {
+    margin-right: 12%;
+}
+
+span.hang-noi-dung-soluong {
+    margin-right: 11%;
+}
+
+span.hang-noi-dung-dauX {
+    margin-right: 14%;
+}
+
+span.hang-noi-dung-remove {
+    margin-left: 5%;
+    cursor:  pointer;
+}
+
+
+/* start checkbox w3c */
+
+
+/* The container-css */
+
+.container-css {
+    position: relative;
+    padding-left: 60px;
+    margin: 6px 20px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 3px solid darkgreen;
+    border-radius: 18px;
+    width: 200px;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.container-css input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    border: 1px solid green;
+    border-radius: 7px;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.container-css:hover input~.checkmark {
+    background-color: #ffffff;
+    border: 1px solid green;
+    border-radius: 7px;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.container-css input:checked~.checkmark {
+    background-color: #00983b;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.container-css input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.container-css .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+span.checkmark {
+    margin-left: 20px;
+}
+
+
+/* end checkbox w3c */
+
+.tien {
+    float: left;
+    width: 50%;
+}
+
+.tien span {
+    font-size: 30px
+}
+
+.in {
+    float: left;
+    width: 50%;
+    text-align: right;
+    position: relative;
+    top: 18px;
+}
+
+.luu_va_thanhtoan {
+    padding-top: 20px;
+}
+
+.luu_va_thanhtoan ul {
+    list-style: none;
+    padding: 0px;
+    background-color: green;
+    text-align: center;
+}
+
+.luu_va_thanhtoan ul li {
+    float: left;
+    width: 100%;
+    border-left: 1px solid greenyellow;
+}
+
+.luu_va_thanhtoan ul li a {
+    text-decoration: none;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+.luu_va_thanhtoan ul li a:hover {
+    background-color: #da1515;
+}
+
+.chitiet__thuc_uong {
+    width: 38%;
+    height: 46%;
+    font-size: 130%;
+    background: white;
+    position: absolute;
+    top: 13%;
+    left: 15%;
+    z-index: -10;
+    opacity: 0;
+}
+
+.tieu_de_thuc_uong {
+    border-bottom: 2px solid gray;
+    padding-bottom: 2%;
+}
+
+.chitiet__thuc_uong-noi_dung {
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+div#thoat_chi_tiet {
+    float: left;
+    width: 33%;
+}
+
+div#thoat_chi_tiet a {
+    color: #49a449;
+}
+
+.tenmon_va_tongtien {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+div#themvao {
+    float: left;
+    width: 33%;
+    text-align: right;
+}
+
+.tenmon_va_tongtien span {
+    padding: 0px 10px;
+}
+
+div#themvao a {
+    text-decoration: none;
+    padding: 7px;
+    color: #49a449;
+}
+
+.tieu_de_gia {
+    margin-top: 3%;
+}
+
+.tieu_de_gia span {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.hr {
+    float: left;
+    border-top: 1px solid black;
+    width: 40%;
+    margin-top: 15px;
+}
+
+.don_gia,
+.don_gia_1,
+.don_gia_2 {
+    border: 2px solid #818681;
+    border-radius: 8px;
+    margin-top: 3%;
+    padding: 1%;
+}
+
+.don_gia span {
+    width: 50%;
+}
+
+.don_gia span:first-child {
+    margin-right: 61%;
+}
+
+.don_gia_active {
+    border: 2px solid #4ae235;
+    border-radius: 8px;
+}
+
+.gia_thuc_uong_extra .don_gia_1 {
+    width: 48%;
+    float: left;
+}
+
+.gia_thuc_uong_extra .don_gia_2 {
+    width: 48%;
+    float: right;
+}
+
+.gia_thuc_uong_extra .don_gia_1 span.ten_gia_extra,
+.gia_thuc_uong_extra .don_gia_2 span.ten_gia_extra {
+    margin-right: 38%;
+}
+
+span.gia_extra-fix {
+    margin-left: 9%;
+}
+
+.ghichu_va_soluong .tieu_de_gia span {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.ghichu_va_soluong .hr {
+    float: left;
+    border-top: 1px solid black;
+    width: 35%;
+    margin-top: 15px;
+}
+
+.ghi_chu_va_so_luong_noi_dung table {
+    margin-top: 3%;
+    width: 100%;
+}
+
+.ghi_chu_va_so_luong_noi_dung table tr td:first-child {
+    width: 80%;
+}
+
+input.soluong {
+    width: 100%;
+    font-size: 300%;
+    border: 2px solid #818681;
+    border-radius: 7px;
+}
+
+textarea#txtarea_ghi_chu {
+    width: 90%;
+    height: 113px;
+    resize: none;
+    border: 2px solid #818681;
+    border-radius: 7px;
+}
+
+.gray {
+    background-color: #808080a8;
+    min-width: 1919px;
+    min-height: 980px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -9;
+    opacity: 0;
+}
+
+.active_chitiet__thuc_uong {
+    z-index: 3;
+    opacity: 1;
+}
+
+.active_gray {
+    z-index: 2;
+    opacity: 1;
+}
+
+.footer {
+    width: 100%;
+    background-color: #00983b;
+}
+
+.footer-tac_gia {
+    width: 40%;
+    float: left;
+    font-size: 150%;
+}
+
+.footer-ten_phan_mem {
+    float: left;
+    width: 40%;
+    font-size: 150%;
+}
+
+.vedau {
+    float: left;
+    width: 20%;
+    font-size: 150%;
+    text-align: right;
+}
+
+img{
+	height:170px;
+}
+
+td.ten_sp{
+	text-align: left;
+    width: 50%;
+}
+td.so_luong{
+	width: 2%;
+}
+td.dauX{
+	width: 10%;
+}
+td.don_gia_san_pham{
+	width: 20%;
+}
+td.dau_remove{
+    width: 18%;
+}
+
+
+/*pháº§n thanh toÃ¡n vÃ  phiáº¿u thanh toÃ¡n*/
+
+.thanh_toan_{
+    width: 80%;
+    background:#FFFFFF;
+    position:  absolute;
+    left: 3%;
+    top: 10%;
+    opacity: 0;
+    z-index: -5;
+}
+.active_{
+	z-index: 5;
+	opacity: 1; 
+}
+div#phieu_thanh_toan {
+    width: 45%;
+    float: left;
+    border-right:1px solid black;
+    margin-left: 4%;
+}
+
+div#thoi_tien {
+    width: 45%;
+    float:  left;
+    padding: auto;
+}
+
+
+
+.luu_va_thanhtoan.thanh_toan
+{
+	width: 35%;
+	margin: auto;
+	margin-top: 10%;
+}
+
+.div_thanh_toan{
+	width: 105%;
+	margin: auto;
+	font-size: 145%;
+}
+
+tr.cham_cham
+{
+	border-top:dotted 1px black;
+	text-align:left;
+}
+
+#close_thanh_toan{
+	text-align:right;
+	font-size:x-large;
+}
+#close_thanh_toan i
+{
+	cursor:pointer;
+}
+
+.xam{
+	background-color:#808080bd;
+	width: 100%;
+		
+	height: 953px;
+		
+	position:  absolute;
+		
+	left: 0px;
+		
+	top: 0px;
+		
+	z-index: -4;
+		
+	opacity: 0;
+}
+
+.active_xam{
+	z-index: 4;
+		
+	opacity: 1;
+}
+
+a.tt1 {
+    background-color: #fd2424b5;
+    color: #6635d8;
+}
+
+ul.nav.navbar-nav.navbar-right li h4{
+	
+line-height: 156%;
+font-style:  italic;	
+border: 2px dotted;
+color: wheat;
+border-radius: 13%;	
+padding: 0px 46px;
+
+}
+

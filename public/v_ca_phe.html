@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>App bán cà phê</title>
+</head>
+
+<body>
+
+    <!--START NAV -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">...</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#">HÓA ĐƠN</a></li>
+                <li><a href="#">CÀ PHÊ</a></li>
+                <li><a href="#">TRÀ</a></li>
+                <li><a href="#">ĐÁ XAY</a></li>
+                <li><a href="#">THỨC UỐNG KHÁC</a></li>
+                <li><a href="#">BÁNH NGỌT</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-sign-out" style="color: white">Đăng Xuất</i></a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <!--END NAV -->
+    <div class="content">
+        <div class="left">
+            <a href="#">
+                <div class="khung">
+                    <div class="imgage">
+                        <img src="imgage/phin_den_da.jpg" alt="">
+                    </div>
+                    <span>Cà phê đen</span>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="khung">
+                    <div class="imgage">
+                        <img src="imgage/phin_den_da.jpg" alt="">
+                    </div>
+                    <span>Cà phê đen</span>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="khung">
+                    <div class="imgage">
+                        <img src="imgage/phin_den_da.jpg" alt="">
+                    </div>
+                    <span>Cà phê đen</span>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="khung">
+                    <div class="imgage">
+                        <img src="imgage/phin_den_da.jpg" alt="">
+                    </div>
+                    <span>Cà phê đen</span>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="khung">
+                    <div class="imgage">
+                        <img src="imgage/phin_den_da.jpg" alt="">
+                    </div>
+                    <span>Cà phê đen</span>
+                </div>
+            </a>
+        </div>
+        <div class="right">
+            <div class="right-top">
+                <div class="hang" style="border-top:none">
+                    <h4>Đang bán hàng</h4>
+                </div>
+                <div class="hang">
+                    <span class="hang-noi-dung-ten">Cà phê đen</span>
+                    <span class="hang-noi-dung-soluong">
+                        <input type="number" width="10px" value="1" min=1 max=100>
+                    </span>
+                    <span class="hang-noi-dung-dauX">X</span>
+                    <span class="hang-noi-dung-gia">39000 đ</span>
+                    <span class="hang-noi-dung-remove"><i class="fa fa-times-circle"></i></span>
+                </div>
+                <div class="hang">
+                    <span class="hang-noi-dung-ten">Cà phê đen</span>
+                    <span class="hang-noi-dung-soluong">
+                        <input type="number" width="10px" value="1" min=1 max=100>
+                    </span>
+                    <span class="hang-noi-dung-dauX">X</span>
+                    <span class="hang-noi-dung-gia">39000 đ</span>
+                </div>
+
+            </div>
+            <div class="right-middle">
+                <label class="container-css">Mang về
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class="right-bottom">
+                <div class="tong">
+                    <div class="tien">
+                        <h3>Tổng</h3>
+                        <span>234000 đ</span>
+                    </div>
+                    <div class="in">
+                        <a href="#">
+                            <i class="fa fa-print" style="font-size: 64px"></i>
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="luu_va_thanhtoan">
+                    <ul>
+                        <li>
+                            <a href="#">Lưu</a>
+                        </li>
+                        <li>
+                            <a href="#">Thanh Toán</a>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="chitiet__thuc_uong">
+        <div class="tieu_de_thuc_uong">
+            <div id="thoat_chi_tiet">
+                <a href="#"><i class="fa fa-times" style="font-size: 20px"></i></a>
+            </div>
+            <div class="tenmon_va_tongtien">
+                <span>Cà phê đen</span>
+                <span>234000 đ</span>
+            </div>
+            <div id="themvao">
+                <a href="#">Thêm vào</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="chitiet__thuc_uong-noi_dung">
+            <div class="gia_thuc_uong">
+                <div class="tieu_de_gia">
+                    <div class="hr"></div>
+                    <span>Giá</span>
+                    <div class="hr"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="don_gia">
+                    <span>Giá niêm yết</span>
+                    <span>39000 đ</span>
+                </div>
+            </div>
+
+            <div class="ghichu_va_soluong">
+                <div class="tieu_de_gia">
+                    <div class="hr"></div>
+                    <span>Ghi chú và số lượng</span>
+                    <div class="hr"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="ghi_chu_va_so_luong_noi_dung">
+                    <table>
+                        <tr>
+                            <td>
+                                <textarea placeholder="Thêm ghi chú" id="txtarea_ghi_chu"></textarea>
+                            </td>
+                            <td>
+                                <input class="soluong" type="number" name="soluong" min="1" max="100" value="1">
+                            </td>
+
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="footer-tac_gia">
+            Phần Mềm được làm bởi nhóm đồ án môn Công Nghệ Phần Mềm
+        </div>
+        <div class="footer-ten_phan_mem">Phần mềm quản lý quán cà phê quy mô vừa và nhỏ</div>
+        <div class="vedau">
+            <a href="#">Về đầu</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="gray"></div>
+</body>
+
+</html>
